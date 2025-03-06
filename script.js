@@ -1,8 +1,3 @@
-// const toggle = document.getElementById('dark-mode-toggle');
-// toggle.addEventListener('click', () => {
-//     document.documentElement.classList.toggle('dark');
-// });
-
 document.addEventListener('DOMContentLoaded', () => {
     const isDarkMode = localStorage.getItem('dark-mode') === 'true';
     if (isDarkMode) {
